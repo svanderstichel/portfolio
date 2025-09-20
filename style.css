@@ -1,14 +1,12 @@
 body {
     font-size: 20px;
     font-family: monospace;
-    background-image: url("images/background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, #8fa5be, #1d4058);
+    padding: 30px;
 }
 
 section {
-    margin-top: 75px;
+    padding-top: 50px;
 }
 
 footer {
@@ -44,6 +42,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #9daec7;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid darkblue;
 }
 
 .rol {
