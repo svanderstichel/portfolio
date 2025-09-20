@@ -1,0 +1,48 @@
+body{
+    font-size: 20px;
+    font-family: monospace;
+}
+section{
+    margin-top: 75px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+.presentacion{
+    margin-left: 20px;
+    text-align: justify;
+}
+.titulo{
+    color:darkblue;
+    margin-bottom: 0;
+}
+.subtitulo{
+    color:darkblue;
+    font-weight: normal;
+}
+.contacto {
+display: flex;
+align-items: center;
+gap: 10px; 
+}
+.tecnologias{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rol{
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.fotoPerfil{
+    width: 200px;
+    height: 200px;
+    border: 1px solid darkblue;
+    border-radius: 10px; 
+    object-fit: cover;
+}
