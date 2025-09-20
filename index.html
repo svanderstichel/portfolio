@@ -12,19 +12,33 @@
 
 <body>
     <header>
-        <h1 class="titulo">Santiago Vanderstichel</h1>
-        <h2 class="rol">Senior Data Engineer</h2>
+        <div class="info-menu">
+            <div class="info">
+                <h1 class="titulo">Santiago Vanderstichel</h1>
+                <h2 class="rol">Senior Data Engineer</h2>
+            </div>
+            <img onclick="clickMenu()" class="menuBtn" src="images/menu.png" alt="menuBtn">
+        </div>
         <img class="fotoPerfil" src="images/profile.jpg" alt="profile">
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="#presentacion" onclick="closeMenu()">Presentación</a></li>
+                <li><a href="#tecnologias" onclick="closeMenu()">Tecnologías</a></li>
+                <li><a href="#proyectos" onclick="closeMenu()">Proyectos</a></li>
+                <li><a href="#contacto" onclick="closeMenu()">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
+    <section id="presentacion">
         <h2 class="subtitulo">Presentación</h2>
-        <p class="presentacion">Hola, bienvenido a mi portfolio profesional! Mi nombre es Santiago Vanderstichel me desempeño como Senior
+        <p class="presentacion">Hola, bienvenido a mi portfolio profesional! Mi nombre es Santiago Vanderstichel me
+            desempeño como Senior
             Data Engineer, trabajo con tecnologías cloud, manteniendo un datawarehouse y desarrollando procesos ETL.
             Tengo un título de grado en Sociología, especializado en Ciencia de Datos. Desde el 2020 trabajo en el área
             de Data y complementé mi formación técnica a través de la Tecnicatura Universitaria en Programación de la
-            UTN.</p>    
+            UTN.</p>
     </section>
-    <section>   
+    <section id="tecnologias">
         <h2 class="subtitulo">Tecnologías</h2>
         <div class="tecnologias">
             <img width="100px" src="images/bigquery.png" alt="bigquery">
@@ -35,11 +49,23 @@
             <img width="65px" src="images/aws.png" alt="aws">
         </div>
     </section>
-    <footer>
+    <section id="proyectos">
+        <h2 class="subtitulo">Proyectos</h2>
+        <div class="proyectos">
+            <img onclick="getArticulos()" class="screenProyecto" width="15%" src="images/articulos.png" alt="articulos">
+            <img onclick="getRadiacion()" class="screenProyecto" width="15%" src="images/radiacion.png" alt="radiacion">
+            <img onclick="getConsultorio()" class="screenProyecto" width="15%" src="images/consultorio.png"
+                alt="consultorio">
+            <img onclick="getGreed()" class="screenProyecto" width="10%" src="images/greed.png" alt="greed">
+        </div>
+    </section>
+    <footer id="contacto">
         <p>Gracias por visitar mi portfolio!</p>
         <h3 class="contacto">Contacto
-        <img onclick="getLinkedin()" style="cursor: pointer" width="30px" src="images/linkedin.png" alt="linkedin">
-        <img onclick="getGithub()" style="cursor: pointer" width="30px" src="images/github.png" alt="github"></h3>
+            <img onclick="getLinkedin()" style="cursor: pointer" width="30px" src="images/linkedin.png" alt="linkedin">
+            <img onclick="getGithub()" style="cursor: pointer" width="30px" src="images/github.png" alt="github">
+        </h3>
     </footer>
 </body>
+
 </html>
