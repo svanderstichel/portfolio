@@ -1,48 +1,61 @@
-body{
+body {
     font-size: 20px;
     font-family: monospace;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-section{
+
+section {
     margin-top: 75px;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     padding: 10px 20px;
     margin-top: 50px;
 }
-.presentacion{
+
+.presentacion {
     margin-left: 20px;
     text-align: justify;
 }
-.titulo{
-    color:darkblue;
+
+.titulo {
+    color: darkblue;
     margin-bottom: 0;
 }
-.subtitulo{
-    color:darkblue;
+
+.subtitulo {
+    color: darkblue;
     font-weight: normal;
 }
+
 .contacto {
-display: flex;
-align-items: center;
-gap: 10px; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
-.tecnologias{
+
+.tecnologias {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.rol{
+
+.rol {
     font-weight: normal;
     margin-top: 0px;
     margin-bottom: 10px;
 }
-.fotoPerfil{
+
+.fotoPerfil {
     width: 200px;
     height: 200px;
     border: 1px solid darkblue;
-    border-radius: 10px; 
+    border-radius: 10px;
     object-fit: cover;
 }
